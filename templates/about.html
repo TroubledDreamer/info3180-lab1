@@ -3,6 +3,9 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/
+app.css') }}" /> 
+
 </head>
 <body>
  <h1>Carlyon Jones-Armour</h1>
@@ -12,4 +15,7 @@
     
     As a current student at UWI, my aspiration is to become a software engineer, explore the world, and create cool projects.</p>
 </body>
+
+<img src="{{ url_for('static', filename='1702402704508.jpg') }}" alt="">
+
 </html> 

@@ -8,3 +8,20 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+
+.font-size {
+  font-size: calc(10px + (100 - 10) * rand());
+}
+
+.font-family {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+.color {
+  color: rgb(rand()*255, rand()*255, rand()*255);
+}
+
+.background-color {
+  background-color: rgb(rand()*255, rand()*255, rand()*255);
+}
